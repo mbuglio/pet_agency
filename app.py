@@ -5,7 +5,7 @@ from forms import AddPetForm, EditPetForm
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:K1ashmir!@localhost:5432/pet_agency'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Password@localhost:/pet_agency'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = True
 app.secret_key = 'shh1234'
